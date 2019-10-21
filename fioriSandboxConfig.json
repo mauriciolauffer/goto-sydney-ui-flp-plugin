@@ -1,0 +1,9 @@
+{
+	"applications": {},
+	"bootstrapPlugins": {
+		"shellplugin": {
+			"component": "mlauffer.shell.plugin",
+			"url": "../../../../../"
+		}
+	}
+}

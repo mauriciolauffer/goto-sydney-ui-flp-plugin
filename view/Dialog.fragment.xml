@@ -1,0 +1,16 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+	<Dialog title="{i18n>dialogTitle}" icon="sap-icon://message-warning" state="Warning">
+		<VBox class="sapUiMediumMargin">
+			<Text text="{i18n>intro}"/>
+			<VBox class="sapUiSmallMargin">
+				<GenericTag text="{i18n>ferry}" status="Success"/>
+				<GenericTag text="{i18n>bus}" status="Error"/>
+				<GenericTag text="{i18n>train}" status="Error"/>
+			</VBox>
+			<Text text="{i18n>more}"/>
+		</VBox>
+		<buttons>
+			<Button text="{i18n>btClose}" press="onPopupClose"/>
+		</buttons>
+	</Dialog>
+</core:FragmentDefinition>
